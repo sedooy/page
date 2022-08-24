@@ -17,8 +17,17 @@ body {
 	margin: auto;
 	position: absolute;
     left: 50%;
-    top: 50%;
+    top: 35%;
 	transform: translate(-50%, -50%);
+}
+
+#body2 {
+    max-width: 650px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
 }
 }
 
@@ -47,12 +56,23 @@ body {
     text-align: center;
 }
 
+#Name2 {
+    color: #971D0A;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.75;
+    display: block;
+    font-family: 'Product Sans';
+    width: 100%;
+    text-align: center;
+}
+
 #title {
     text-align: center;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
-    line-height: 1.25;
+    line-height: 1.5;
     display: block;
     font-family: var(--font);
     max-width: 450px;
