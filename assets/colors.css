@@ -1,0 +1,77 @@
+.standart {
+    background-color: #272727;
+    border: solid #272727 1px; 
+}
+
+.standart:hover {
+    background-color: #4483B1;
+    /* border: solid #ffb100 2px;  */
+}
+
+.insta:hover {
+    background-color: #F74300;
+    border: solid #F74300 2px;
+}
+
+.twitch:hover {
+    background-color: #000000;
+    border: solid #000000 2px;
+}
+
+.gapp:hover {
+    background-color: #FFB100;
+    border: solid #FFB100 2px;
+}
+
+.spotify:hover {
+    background-color: #1DB954;
+    border: solid #1DB954 2px;
+}
+
+.lastfm:hover {
+    background-color: #d60801;
+    border: solid #d60801 2px;
+}
+
+.discord:hover {
+    background-color: #7289DA;
+    border: solid #7289DA 2px;
+}
+
+.ds:hover {
+    background-color: #178598;
+    border: solid #178598 2px;
+}
+
+.xbox:hover {
+    background-color: #BB3874;
+    border: solid #BB3874 2px;
+}
+
+.steam:hover {
+    background-color: #241f21;
+    border: solid #241f21 2px;
+}
+
+.telega:hover {
+    background-color: #23aaea;
+    border: solid #23aaea 2px;
+}
+
+.blogs:hover {
+    background-color: #beaaff;
+    /* border: solid #beaaff 2px;  */
+    color: #000000
+}
+
+.streams:hover {
+    background-color: #fab4ff;
+    /* border: solid #fab4ff 2px;  */
+    color: #000000
+}
+
+.music:hover {
+    background-color: #befae1;
+    /* border: solid #befae1 2px;  */
+    color: #000000
+}
