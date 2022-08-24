@@ -9,17 +9,51 @@
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="article">
     <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="vanilla-notify.css">
-    <script src="vanilla-notify.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         function copyToClipboard() {
             var copyText = "sed0y#0180";
             navigator.clipboard.writeText(copyText).then(() => {
-        // Alert the user that the action took place.
-        // Nobody likes hidden stuff being done under the hood!;
+        new Notify({
+    status: 'success',
+    title: 'Дискорд тег скопирован',
+    text: '',
+    effect: 'slide',
+    speed: 300,
+    customClass: null,
+    customIcon: null,
+    showIcon: true,
+    showCloseButton: true,
+    autoclose: true,
+    autotimeout: 3000,
+    gap: 20,
+    distance: 20,
+    type: 2,
+    position: 'right top'
+  });
         });
         }
+        function pushNotify() {
+     new Notify({
+    status: 'success',
+    title: 'Дискорд тег скопирован',
+    text: '',
+    effect: 'slide',
+    speed: 300,
+    customClass: null,
+    customIcon: null,
+    showIcon: true,
+    showCloseButton: true,
+    autoclose: true,
+    autotimeout: 3000,
+    gap: 20,
+    distance: 20,
+    type: 2,
+    position: 'right top'
+  })
+}
     </script>
 
     <script>
@@ -27,7 +61,6 @@
           $("body").css("opacity", "1");
         });
       </script>
-	<link rel="icon" href="favicon.ico">
 
 </head>
 <body>
@@ -64,7 +97,8 @@
             <a class="menubutt standart" href="trackers.html" target="_self" style="border-radius: 8px;">Игровая статистика</a>
             <a class="menubutt standart" href="video.html" target="_self" style="border-radius: 8px;">Видео</a>
         </div>
-
+        <span id="Name2">Идол<br></span>>
+        <iframe src="https://player.twitch.tv/?channel=laplas11&parent=sedooy.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="341" width="606"></iframe>
     </div>
 
 </div>
@@ -74,8 +108,7 @@
 <body>
     <div id="body2">
 
-        <span id="Name2">Идол<br></span>>
-        <iframe src="https://player.twitch.tv/?channel=ladifftv&parent=sedooy.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="341" width="606"></iframe>
+       
     </div>
 </body>
 </html>
